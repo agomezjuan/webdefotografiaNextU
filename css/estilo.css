@@ -12,10 +12,15 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  .titulo {
+    color: #fff;
+    text-shadow: 2px 2px 2px #02010a;
+    margin-left: 20px;
+  }
   .menu {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 /* Sito movil */
@@ -25,17 +30,23 @@
     margin: 0 auto;
   }
   header {
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: #5b7989;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
+  .titulo h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px #02010a;
+    padding-top: 20px;
+  }
   .menu {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
   }
 }
 /* Estilos Globales */
@@ -43,13 +54,6 @@ body {
   font-family: 'Dancing Script', cursive;
   background-color: #02010a;
 }
-
-.titulo {
-  color: #fff;
-  text-shadow: 2px 2px 2px #02010a;
-  margin-left: 20px;
-}
-
 
 .item-menu {
   margin: 10px;
